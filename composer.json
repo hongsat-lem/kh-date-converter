@@ -29,10 +29,10 @@
         },
         "laravel": {
             "providers": [
-                "Cambodev\\DateConverter\\ConverterServiceProvider"
+                "CamboDev\\DateConverter\\ConverterServiceProvider"
             ],
             "aliases": {
-                "KmFormat": "Cambodev\\DateConverter\\KmFormat"
+                "KmFormat": "CamboDev\\DateConverter\\KmFormat"
             }
         }
     }

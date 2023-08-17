@@ -4,8 +4,8 @@ namespace CamboDev\DateConverter;
 
 use Exception;
 use DateTime;
-use Cambodev\DateConverter\Format;
-use Cambodev\DateConverter\Config;
+use CamboDev\DateConverter\Format;
+use CamboDev\DateConverter\Config;
 
 class KmFormat
 {
