@@ -17,7 +17,7 @@
 
     "autoload": {
         "psr-4": {
-            "Cambodev\\DateConverter\\": "src/"
+            "CamboDev\\DateConverter\\": "src/"
         }
     },
 
@@ -25,7 +25,7 @@
         "component": "package",
         "frameworks": ["Laravel"],
         "branch-alias": {
-            "dev-master": "v1.0.0-dev"
+            "dev-master": "v1.0.2"
         },
         "laravel": {
             "providers": [
