@@ -1,0 +1,39 @@
+{
+    "name": "cambodev/date-converter",
+    "description": "Convert en date to kh date",
+    "keywords": ["date convert", "english date to khmer date", "en to kh date time", "laravel"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hongsat LEM",
+            "email": "hongsat993@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "Cambodev\\DateConverter\\": "src/"
+        }
+    },
+
+    "extra": {
+        "component": "package",
+        "frameworks": ["Laravel"],
+        "branch-alias": {
+            "dev-master": "v1.0.2"
+        },
+        "laravel": {
+            "providers": [
+                "Cambodev\\DateConverter\\ConverterServiceProvider"
+            ],
+            "aliases": {
+                "KmFormat": "Cambodev\\DateConverter\\KmFormat"
+            }
+        }
+    }
+}
