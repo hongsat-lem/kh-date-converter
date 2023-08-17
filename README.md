@@ -8,6 +8,10 @@ composer require cambodev/date-converter
 ```
 
 ## Configuration
+To your config/app.php
+ ```php
+'timezone' => 'Asia/Phnom_Penh',
+```
 ##### Laravel 5.5 and above
 You don't have to do anything else, this package autoloads the Service Provider and create the Alias, using the new Auto-Discovery feature.
 Add the Service Provider and Facade alias to your config/app.php
